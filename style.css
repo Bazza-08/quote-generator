@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightseagreen;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    border: 3px solid #333;
+    border-radius: 10px;
+    height: 300px;
+    width: 80%;
+    padding: 10px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p, span {
+    font-size: 2em;
+}
+
+span {
+    color: lightseagreen;
+}
+
+.text {
+    width: 100%;
+}
